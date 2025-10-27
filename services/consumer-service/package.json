@@ -1,0 +1,12 @@
+{
+  "name": "consumer-service",
+  "version": "1.0.0",
+  "description": "PowerGrid Telemetry Consumer Service",
+  "main": "consumer.js",
+  "scripts": {
+    "start": "node consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
